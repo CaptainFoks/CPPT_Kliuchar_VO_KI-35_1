@@ -11,7 +11,7 @@ public class Lab1KliucharKI305
 *
 * @param args
 * @throws FileNotFoundException
-*
+*test
 */
 public static void main(String[] args) throws FileNotFoundException
 
@@ -42,13 +42,13 @@ exit:
         	if (filler.length() == 1) {
             if (k<=totalCols) {
 	            arr[i][j] = (char) filler.codePointAt(0);
-	            System.out.print(arr[i][j] + " ");
-	            fout.print(arr[i][j] + " ");
+	            System.out.print(" " + " ");
+	            fout.print(" " + " ");
             }
             else {
 	            arr[i][j] = (char) filler.codePointAt(0);
-	            System.out.print(" " + " ");
-	            fout.print(" " + " ");
+	            System.out.print(arr[i][j] + " ");
+	            fout.print(arr[i][j] + " ");
             }
         	}
             else if (filler.length() == 0)
