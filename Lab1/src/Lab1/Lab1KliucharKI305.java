@@ -18,58 +18,54 @@ public static void main(String[] args) throws FileNotFoundException
 {	
 int nRows;
 char[][] arr;
-String filler;
+String filler = null;
 Scanner in = new Scanner(System.in);
 File dataFile = new File("MyFile.txt");
 PrintWriter fout = new PrintWriter(dataFile);
 System.out.print("Введіть розмір квадратної матриці: ");
-nRows = in.nextInt();
-int totalCols = nRows/6;
-int k = 0;
-arr = new char[nRows][nRows];
+nRows = (int)in.nextInt();
+int crock=nRows/6;
+arr = new char[nRows/2][nRows];
 in.nextLine();
-System.out.print("\nВведіть символ-заповнювач: ");
-filler = in.nextLine();
-exit:
-	try {
-    for (int i = 0; i < nRows; i++) {
-    	 k=k+1;
-         if (k>totalCols*2) {
-         	k = 1;
+boolean inputFlag = false;
+while (!inputFlag)
+{
+  System.out.print("\nВведіть символ-заповнювач: ");
+  filler = in.nextLine();
+  if (filler.length() != 1)
+  {
+    inputFlag=false;
+    System.out.print("\nНе введено символ заповнювач");
+  }
+  
+  else 
+  {
+    inputFlag=true;
+  }
+}    
+    for (int i = 0; i < nRows/2; i++) {
+         if (i%crock==0) {
+        	 for (int ii = 0; ii < crock; ii++) {
+        	 for (int jj = 0; jj< nRows; jj++) {
+ 	            System.out.print(" ");
+ 	            fout.print(" ");
+        	 }
+				System.out.print("\n");
+				fout.print("\n");
+        	 }
          }
         for (int j = 0; j < nRows; j++) {
-        	
+
         	if (filler.length() == 1) {
-            if (k<=totalCols) {
-	            arr[i][j] = (char) filler.codePointAt(0);
-	            System.out.print(" " + " ");
-	            fout.print(" " + " ");
-            }
-            else {
 	            arr[i][j] = (char) filler.codePointAt(0);
 	            System.out.print(arr[i][j] + " ");
 	            fout.print(arr[i][j] + " ");
-            }
+	          
         	}
-            else if (filler.length() == 0)
-			{
-				System.out.print("\nНе введено символ заповнювач");
-				break exit;
-			}
-			else 
-			{
-				System.out.print("\nЗабагато символів заповнювачів");
-				break exit;
-			}
 					}
 					System.out.print("\n");
 					fout.print("\n");
 					} 
-				}
-			finally 
-			{
-		            in.close();
-		    }
 			fout.flush();
 			fout.close();
 			
