@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"KI35.Kliuchar.lab2","l":"TV"},{"p":"KI35.Kliuchar.lab2","l":"TVApp"}];updateSearchResults();

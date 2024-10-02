@@ -1,0 +1,15 @@
+package KI35.Kliuchar.lab4;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); 
+
+        System.out.print("Введіть значення x: ");
+        double x = scanner.nextInt();
+
+        try {
+            double result = Equations.calculate(x);
+
+}

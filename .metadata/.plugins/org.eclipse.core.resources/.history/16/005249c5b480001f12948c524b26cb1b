@@ -1,0 +1,10 @@
+package KI35.Kliuchar.lab5;
+import java.io.*;
+import java.util.*;
+/**
+* Клас Lab5KliucharKI305 реалізує приклад програми до лабораторної роботи №5
+*/
+public class Lab5KliucharKI305 {
+    CalcWFio calcWFio = new CalcWFio();
+	CalcWFioApp.calc(" ");
+}

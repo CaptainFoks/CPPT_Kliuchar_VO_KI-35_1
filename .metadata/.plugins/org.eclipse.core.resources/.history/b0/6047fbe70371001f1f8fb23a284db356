@@ -1,0 +1,33 @@
+/** 
+ * lab 2 package 
+ */ 
+package KI35.Kliuchar.lab2; 
+ 
+import static java.lang.System.out; 
+import java.io.*;
+
+import KI35.Kliuchar.lab2.TV.Screen;
+ 
+/** 
+ * Computer Mouse Application class implements main method for  
+ * ComputerMouse class abilities demonstration 
+*/ 
+public class TVApp  
+{ 
+ 
+ /** 
+  * @param args 
+  * @throws FileNotFoundException 
+  */ 
+ public static void main(String[] args) throws FileNotFoundException 
+ { 
+  // TODO Auto-generated method stub 
+	 TV screen1= new TV();
+	 Screen z1 = screen1.new Screen();
+	 screen1.powerOnOff();
+	 screen1.powerOnOff();
+	 z1.setSize(10);
+	 System.out.println(z1.getSize());
+ } 
+ 
+} 

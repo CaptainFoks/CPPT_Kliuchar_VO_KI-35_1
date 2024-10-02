@@ -1,1 +1,0 @@
-moduleSearchIndex = [{"l":"Lab2"}];updateSearchResults();
