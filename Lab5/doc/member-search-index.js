@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"KI35.Kliuchar.lab5","c":"CalcWFioApp","l":"CalcWFioApp()","u":"%3Cinit%3E()"},{"p":"KI35.Kliuchar.lab5","c":"CalcWFioApp","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();

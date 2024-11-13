@@ -1,0 +1,23 @@
+=2024-10-02T16:52:28.333345400: Power button pressed
+2024-10-02T16:52:28.341999900: Power button pressed
+2024-10-02T16:52:28.341999900: TV is off. Cannot change channel.
+2024-10-02T16:52:28.341999900: Power button pressed
+2024-10-02T16:52:28.346418600: Switched to channel 10
+2024-10-02T16:52:28.346418600: Channel number out of range. Max channel is 1000.
+2024-10-02T16:52:28.346418600: Volume decreased to 0%
+2024-10-02T16:52:28.346418600: Volume is already muted.
+2024-10-02T16:52:28.347574200: Volume increased to 50%
+2024-10-02T16:52:28.347574200: Volume decreased to 40%
+2024-10-02T16:52:28.347574200: Volume set to 35%
+2024-10-02T16:52:28.347574200: TV muted.
+2024-10-02T16:52:28.347574200: TV unmuted. Volume set to 35%
+2024-10-02T16:52:28.347574200: Signal +
+2024-10-02T16:52:28.349044: Distance now 1100
+2024-10-02T16:52:28.349044: Signal -
+2024-10-02T16:52:28.349044: Distance now 0
+2024-10-02T16:52:28.349044: Signal +
+2024-10-02T16:52:28.349044: Signal lost
+2024-10-02T16:52:28.349044: Signal -
+2024-10-02T16:52:28.349044: Volume increased to 45%
+2024-10-02T16:52:28.349044: Volume decreased to 35%
+2024-10-02T16:52:28.349044: Power button pressed

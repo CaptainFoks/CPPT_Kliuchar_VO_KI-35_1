@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"Lab4","l":"KI35.Kliuchar.lab4"}];updateSearchResults();

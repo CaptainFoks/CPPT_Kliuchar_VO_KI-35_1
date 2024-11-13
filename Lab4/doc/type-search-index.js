@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"KI35.Kliuchar.lab4","l":"EquationsApp"}];updateSearchResults();

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"KI35.Kliuchar.lab3","l":"TVTuner.Channel"},{"p":"KI35.Kliuchar.lab3","l":"TVTuner.TunerType"},{"p":"KI35.Kliuchar.lab3","l":"TV"},{"p":"KI35.Kliuchar.lab3","l":"TVApp"},{"p":"KI35.Kliuchar.lab3","l":"TVTuner"}];updateSearchResults();
